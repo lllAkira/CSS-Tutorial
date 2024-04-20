@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Padding</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div.box-1{
+            width: 500px;
+            height: 200px;
+            border: 5px solid black;
+            padding: 40px;
+            box-sizing: border-box; /*boxsizingborderbox özelliği 500pxlik width varsa tüm ölçülerin tammaını 500 ü geçmeyecek şekilde ayarlar.*/
+            /* padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px; */
+            /*top right bottom left*/
+            /* padding: 20px 20px 20px 20px; */
+            /* padding: 20px; */
+            /* padding: 20px 50px; paddingler default olarak width e ekleniyor*/
+        }
+        /* div.box-2{
+            width: 500px;
+            height: 200px;
+            border: 5px solid black;
+            padding: 100px;
+        } */
+        div.box-2{
+            width: 500px;
+            height: 200px;
+            border: 5px solid black;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tenetur, perspiciatis officiis necessitatibus iste quod quidem eveniet. Architecto rerum cupiditate ipsa. Ea placeat itaque, recusandae similique consequuntur fuga cupiditate voluptatem.</div>
+    <!-- <div class="box-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tenetur, perspiciatis officiis necessitatibus iste quod quidem eveniet. Architecto rerum cupiditate ipsa. Ea placeat itaque, recusandae similique consequuntur fuga cupiditate voluptatem.</div> -->
+    <div class="box-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tenetur, perspiciatis officiis necessitatibus iste quod quidem eveniet. Architecto rerum cupiditate ipsa. Ea placeat itaque, recusandae similique consequuntur fuga cupiditate voluptatem.</div>
+</body>
+</html>
